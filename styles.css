@@ -3,6 +3,10 @@ body {
   font-family: 'Open Sans';
 }
 
+html {
+  background-color: white;
+}
+
 .hovereffect {
   padding: 45px;
   height: 130px;
