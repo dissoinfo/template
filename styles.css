@@ -40,3 +40,11 @@ nav {
   margin: 0px auto;
   border-bottom: 1px solid rgb(201, 201, 201);
 }
+
+#checkButton {
+  background-color: #0165f1;
+}
+
+.orderForm a {
+  color: blue;
+}
