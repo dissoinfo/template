@@ -61,7 +61,7 @@
     
   
   Zi">
-<meta property="og:updated_time" content="2016-08-25T19:30:24.599Z">
+<meta property="og:updated_time" content="2016-08-25T20:25:27.029Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Order Site Template - Dissoinfo">
 <meta name="twitter:description" content="MPR (Commercial) Order Form
@@ -103,6 +103,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.css">
   <link rel="stylesheet" href="/template/styles.css">
   <link rel="stylesheet" href="/template/template/styles.css">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="/template/script.js"></script>
 
 </head>
 
@@ -208,9 +210,14 @@
   </p>
   <hr>
   <p class="control">
-  <button class="button is-primary">Submit</button>
-</p>
-</form>
+    <label class="checkbox">
+      <input type="checkbox" id="checky">
+      I acknowledge and agree that Legal Descriptions are subject to the limitations described in the <a href="https://checkout.shopify.com/13485981/policies/22345985.html#section13" target="_blank" rel="external">Terms of Service</a> contained in this website.
+    </label>
+  </p>
+  <p class="control">
+  <button class="button is-primary" id="checkButton">Submit</button>
+</p></form>
 
 </div>
 
