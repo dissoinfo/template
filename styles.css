@@ -1,16 +1,38 @@
 body {
   background-color: white !important;
+  font-family: 'Open Sans';
 }
 
 .hovereffect {
   padding: 45px;
-  border: 1px solid black;
+  height: 130px;
+  background-color: #0165f1;
+  border-radius: 2px;
+}
+
+.hovereffect:hover {
+  background-color: rgba(1, 101, 241, 0.62) !important;
+}
+.hovereffect .title {
+  color: white !important;
 }
 
 .container {
   padding-top: 30px;
+  width: 90%;
+  margin: 0px auto;
 }
 
 footer {
   background-color: white !important;
+}
+
+.nav-item img {
+    max-height: 50px;
+}
+
+nav {
+  width: 80%;
+  margin: 0px auto;
+  border-bottom: 1px solid rgb(201, 201, 201);
 }

@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   
   <title>Order Site Template - Dissoinfo</title>
-
   
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
   <link rel="stylesheet" href="/template/styles.css">
   <link rel="stylesheet" href="/template/template/styles.css">
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
@@ -19,11 +19,14 @@
   <nav class="nav">
   <div class="nav-left">
 
+  <a class="nav-item is-brand" href="/template">
+    <img src="/template/logodissoinfo.png" alt="" />
+</a>
   </div>
 
   <div class="nav-center">
     <a class="nav-item is-brand" href="/template">
-    <h3 class="title is-3">Brand Name</h3>
+      <img src="/template/logodissoinfo.png" alt="" />
     </a>
   </div>
 
@@ -45,6 +48,7 @@
 <form action="https://formspree.io/patrick.bolle@hotmail.com" method="POST">
   <input type="hidden" name="_subject" value="Legal Description Order from TEMPLATENAME">
   <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="_next" value="/template/thanks.html">
   <h3 class="subtitle is-4">Who Is Ordering</h3>
   <label class="label">Name Of Attorney</label>
   <p class="control">
@@ -72,11 +76,15 @@
   <p class="control">
     <input type="text" name="City" class="input" placeholder="">
   </p>
+  <label class="label">State</label>
+  <p class="control">
+    <input type="text" name="City" class="input" placeholder="" value="CA" disabled>
+  </p>
   <hr>
   <p class="control">
     <label class="checkbox">
       <input type="checkbox" id="checky">
-      I acknowledge and agree that Legal Descriptions are subject to the limitations described in the <a href="https://checkout.shopify.com/13485981/policies/22345985.html#section13" target="_blank" rel="external">Terms of Service</a> contained in this website.
+      I acknowledge and agree that Legal Descriptions are subject to the limitations described in the <a href="https://checkout.shopify.com/13485981/policies/22345985.html#section13" target="_blank" rel="external">Terms of Service</a> contained <a href="http://dissoinfo.com" target="_blank" rel="external">Dissoinfo.com</a>.
     </label>
   </p>
   <p class="control">
